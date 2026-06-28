@@ -2,28 +2,26 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
     extend: {
       colors: {
-        base: '#0A0C10',
-        panel: '#11141B',
-        border: '#1E2430',
-        gold: '#E8B04B',
-        teal: '#2DD4BF',
-        textPrimary: '#E6EAF0',
-        textMuted: '#8A93A6',
+        primary: "#050816",
+        secondary: "#aaa6c3",
+        tertiary: "#151030",
+        "black-100": "#100d25",
+        "black-200": "#090325",
+        "white-100": "#f3f3f3",
       },
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+      boxShadow: {
+        card: "0px 35px 120px -15px #211e35",
       },
-      maxWidth: {
-        content: '1100px',
+      screens: {
+        xs: "450px",
       },
       backgroundImage: {
-        'radial-vignette': 'radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.6) 100%)',
+        "hero-pattern": "radial-gradient(ellipse at 20% 20%, rgba(145, 94, 255, 0.15) 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, rgba(5, 8, 22, 1) 0%, transparent 100%)",
       },
     },
   },
