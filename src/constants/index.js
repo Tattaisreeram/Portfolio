@@ -10,22 +10,23 @@ export const services = [
   { title: "Backend Engineering", icon: "Server" },
   { title: "Distributed Systems", icon: "Network" },
   { title: "Event-Driven Architecture", icon: "Workflow" },
+  { title: "Web Development", icon: "Globe" },
   { title: "Competitive Programming", icon: "Trophy" },
 ];
 
 export const technologies = [
-  { name: "Java", label: "Java", accent: "#E8B04B" },
-  { name: "Spring Boot", label: "Spring", accent: "#6DB33F" },
-  { name: "Kafka", label: "Kafka", accent: "#231F20" },
-  { name: "gRPC", label: "gRPC", accent: "#4285F4" },
-  { name: "Redis", label: "Redis", accent: "#DC382D" },
-  { name: "MySQL", label: "MySQL", accent: "#4479A1" },
-  { name: "PostgreSQL", label: "PgSQL", accent: "#336791" },
-  { name: "Docker", label: "Docker", accent: "#2496ED" },
-  { name: "React", label: "React", accent: "#61DAFB" },
-  { name: "TypeScript", label: "TypeSc.", accent: "#3178C6" },
-  { name: "Python", label: "Python", accent: "#3776AB" },
-  { name: "C++", label: "C++", accent: "#00599C" },
+  { name: "Java", label: "Java", accent: "#E8B04B", icon: "/tech/java.png" },
+  { name: "Spring Boot", label: "Spring", accent: "#6DB33F", icon: "/tech/spring.png" },
+  { name: "Kafka", label: "Kafka", accent: "#231F20", icon: "/tech/kafka.png" },
+  { name: "gRPC", label: "gRPC", accent: "#4285F4", icon: "/tech/grpc.png" },
+  { name: "Redis", label: "Redis", accent: "#DC382D", icon: "/tech/redis.png" },
+  { name: "MySQL", label: "MySQL", accent: "#4479A1", icon: "/tech/mysql.png" },
+  { name: "PostgreSQL", label: "PgSQL", accent: "#336791", icon: "/tech/postgresql.png" },
+  { name: "Docker", label: "Docker", accent: "#2496ED", icon: "/tech/docker.png" },
+  { name: "React", label: "React", accent: "#61DAFB", icon: "/tech/reactjs.png" },
+  { name: "TypeScript", label: "TypeSc.", accent: "#3178C6", icon: "/tech/typescript.png" },
+  { name: "Python", label: "Python", accent: "#3776AB", icon: "/tech/python.png" },
+  { name: "C++", label: "C++", accent: "#00599C", icon: "/tech/cpp.png" },
 ];
 
 export const experiences = [
@@ -34,7 +35,7 @@ export const experiences = [
     company_name: "Hugohub",
     icon: "Server",
     iconBg: "#383E56",
-    date: "2025 to present",
+    date: "2026 - Present",
     points: [
       "Building production backend microservices in Java and Spring Boot.",
       "Designing gRPC service contracts and Kafka event pipelines.",

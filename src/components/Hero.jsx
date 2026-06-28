@@ -18,9 +18,9 @@ const Hero = () => (
           <span className="text-[#915EFF]">Sreeram</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I build scalable, event-driven backend systems{' '}
+          Full-stack engineer with a backend focus. I build{' '}
           <br className="sm:block hidden" />
-          with Spring Boot, Kafka and gRPC.
+          event-driven systems with Spring Boot, Kafka, gRPC and React.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-4">

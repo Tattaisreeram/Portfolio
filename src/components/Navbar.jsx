@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Sreeram&nbsp;
-            <span className="hidden sm:block text-secondary font-normal">| Backend Engineer</span>
+            <span className="hidden sm:block text-secondary font-normal">| Full-Stack &amp; Backend Engineer</span>
           </p>
         </Link>
 
