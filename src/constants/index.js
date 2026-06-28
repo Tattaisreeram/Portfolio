@@ -15,18 +15,18 @@ export const services = [
 ];
 
 export const technologies = [
-  { name: "Java", label: "Java", accent: "#E8B04B", icon: "/tech/java.png" },
-  { name: "Spring Boot", label: "Spring", accent: "#6DB33F", icon: "/tech/spring.png" },
-  { name: "Kafka", label: "Kafka", accent: "#231F20", icon: "/tech/kafka.png" },
-  { name: "gRPC", label: "gRPC", accent: "#4285F4", icon: "/tech/grpc.png" },
-  { name: "Redis", label: "Redis", accent: "#DC382D", icon: "/tech/redis.png" },
-  { name: "MySQL", label: "MySQL", accent: "#4479A1", icon: "/tech/mysql.png" },
-  { name: "PostgreSQL", label: "PgSQL", accent: "#336791", icon: "/tech/postgresql.png" },
-  { name: "Docker", label: "Docker", accent: "#2496ED", icon: "/tech/docker.png" },
-  { name: "React", label: "React", accent: "#61DAFB", icon: "/tech/reactjs.png" },
-  { name: "TypeScript", label: "TypeSc.", accent: "#3178C6", icon: "/tech/typescript.png" },
-  { name: "Python", label: "Python", accent: "#3776AB", icon: "/tech/python.png" },
-  { name: "C++", label: "C++", accent: "#00599C", icon: "/tech/cpp.png" },
+  { name: "Java", label: "Java", accent: "#E8B04B", icon: "/tech/java.svg" },
+  { name: "Spring Boot", label: "Spring", accent: "#6DB33F", icon: "/tech/spring.svg" },
+  { name: "Kafka", label: "Kafka", accent: "#231F20", icon: "/tech/kafka.svg" },
+  { name: "gRPC", label: "gRPC", accent: "#4285F4", icon: "/tech/grpc.svg" },
+  { name: "Redis", label: "Redis", accent: "#DC382D", icon: "/tech/redis.svg" },
+  { name: "MySQL", label: "MySQL", accent: "#4479A1", icon: "/tech/mysql.svg" },
+  { name: "PostgreSQL", label: "PgSQL", accent: "#336791", icon: "/tech/postgresql.svg" },
+  { name: "Docker", label: "Docker", accent: "#2496ED", icon: "/tech/docker.svg" },
+  { name: "React", label: "React", accent: "#61DAFB", icon: "/tech/reactjs.svg" },
+  { name: "TypeScript", label: "TypeSc.", accent: "#3178C6", icon: "/tech/typescript.svg" },
+  { name: "Python", label: "Python", accent: "#3776AB", icon: "/tech/python.svg" },
+  { name: "C++", label: "C++", accent: "#00599C", icon: "/tech/cpp.svg" },
 ];
 
 export const experiences = [
